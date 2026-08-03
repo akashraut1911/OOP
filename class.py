@@ -1,1 +1,3 @@
-
+class Student:
+    name = "Akash"
+    
