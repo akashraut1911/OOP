@@ -1,13 +1,10 @@
 from abc import ABC, abstractmethod
-
 class Vehicle(ABC):
-
-    @abstractmethod
+   @abstractmethod
     def start(self):
-        pass
+        print("Vehicle Statrted")
 
 class Car(Vehicle):
-
     def start(self):
         print("Car starts with key")
 
@@ -17,6 +14,5 @@ class Bike(Vehicle):
 
 c = Car()
 c.start()
-
 b = Bike()
 b.start()
